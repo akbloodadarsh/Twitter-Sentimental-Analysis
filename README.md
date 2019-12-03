@@ -3,7 +3,7 @@
 
 #### ABOUT
 
-GUI setimental analysis using python.We have used multiple algorithms and based on those algoritms we have shown independent outputs of every algorithm.
+**GUI setimental analysis using python.We have used multiple algorithms and based on those algoritms we have shown independent outputs of every algorithm.**The user will input a twitter username and select number of tweets he wants to analyse.Then he will run the program and the output will be shown in seperate window for every tweet!**
 
 #### Instruction to use
 1. **Open [_test.py_](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py)**
@@ -13,7 +13,7 @@ GUI setimental analysis using python.We have used multiple algorithms and based 
 5. **The result will show up.**
 
 #### Future Improvements
-* We are gonna add a module which will analyze the image which is attached to a tweet.(If available by tweepy or other api) 
-* A hashtag analysis section which can analysis **N** number of tweets and based on the tweets will give sentiments of people in %.Ex:-  
-  1. Angry n% Sad n% Happy n%
-  2. Positive n% Negative n%
+* **We are gonna add a module which will analyze the image which is attached to a tweet.(If available by tweepy or other api)** 
+* **A hashtag analysis section which can analysis **N** **number of tweets and based on the tweets will give sentiments of people in %.Ex:-**  
+  1. **Angry n% Sad n% Happy n%**
+  2. **Positive n% Negative n%**
