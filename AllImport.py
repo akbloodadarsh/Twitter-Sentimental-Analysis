@@ -17,11 +17,11 @@ import RandomForestClassifier
 import ExtraTreeClassifier
 import LinearClassifier
 
-# To pre-process the raw tweet text into useful information
+# importing pre process from our module to pre-process the raw tweet text into useful information
 import PreProcess
 pp = PreProcess
 
-# All Algorithms Object
+# created Algorithms Object of our imported algorithms
 mnb = MultinomialNaiveBayes
 mlr = MultinomialLogisitcRegression
 blr = BinaryLogisticRegression
