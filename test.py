@@ -195,6 +195,6 @@ if __name__ == "__main__":
     Label(mainwindow, text="NUMBER OF TWEETS", bg="black", fg="white").pack(side=TOP, fill=X, padx=2, pady=2)
     w = Scale(mainwindow, from_=1, to=10, orient=HORIZONTAL)
     w.pack(side=TOP, fill=X, padx=2, pady=2)
-    But1 = Button(mainwindow, text="Train", command=execute)
+    But1 = Button(mainwindow, text="RUN", command=execute)
     But1.pack(side=TOP, fill=X, padx=2, pady=2)
     mainwindow.mainloop()
