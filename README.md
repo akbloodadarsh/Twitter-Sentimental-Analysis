@@ -14,6 +14,6 @@
 
 #### Future Improvements
 * **We are gonna add a module which will analyze the image which is attached to a tweet.(If available by tweepy or other api)** 
-* **A hashtag analysis section which can analysis **N** **number of tweets and based on the tweets will give sentiments of people in %.Ex:-**  
+* **A hashtag analysis section which can analysis** **N** **number of tweets and based on the tweets will give sentiments of people in %.Ex:-**  
   1. **Angry n% Sad n% Happy n%**
   2. **Positive n% Negative n%**
