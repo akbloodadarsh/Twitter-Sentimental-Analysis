@@ -6,7 +6,7 @@
 **GUI setimental analysis using python.We have used multiple algorithms and based on those algoritms we have shown independent outputs of every algorithm.**The user will input a twitter username and select number of tweets he wants to analyse.Then he will run the program and the output will be shown in seperate window for every tweet!**
 
 #### Instruction to use
-1. **Open [_test.py_](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py)**
+1. **Open [_`test.py`_](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py)**
 2. **Run**
 3. **When the UI will show up,enter the username of the profile wihtout using @**
 4. **Use the slider to set the number of tweets you wanted to fetch**
