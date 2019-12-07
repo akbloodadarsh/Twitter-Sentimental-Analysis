@@ -1,5 +1,4 @@
-ACCESS_TOKEN = ""
-ACCESS_TOKEN_SECRET = ""
-CONSUMER_KEY = ""
-CONSUMER_SECRET = ""
-
+ACCESS_TOKEN = "Enter your access token here"
+ACCESS_TOKEN_SECRET = "Enter your access token secret here"
+CONSUMER_KEY = "Enter your consumer key here"
+CONSUMER_SECRET = "Enter your consumer secret here"
