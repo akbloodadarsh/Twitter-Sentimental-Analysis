@@ -17,3 +17,4 @@
 * **A hashtag analysis section which can analysis** **N** **number of tweets and based on the tweets will give sentiments of people in %.Ex:-**  
   1. **Angry n% Sad n% Happy n%**
   2. **Positive n% Negative n%**
+by adarsh
