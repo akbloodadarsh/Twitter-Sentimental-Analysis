@@ -1,5 +1,4 @@
 # Twitter-Sentimental-Analysis
-## WARNING:- tHiS pRoJeCT Is StILl iN pHaSE-1-BUt ItS StILl COOl
 
 #### ABOUT
 
