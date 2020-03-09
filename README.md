@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png?raw=true">
 </p>
-<p align="center"><b>Twitter-Sentimental-Analysis</b></p>
+<h1 align="center">Twitter-Sentimental-Analysis</h1>
 
 #### ABOUT
 
