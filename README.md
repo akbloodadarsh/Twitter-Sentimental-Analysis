@@ -1,4 +1,4 @@
-<p align="center">![GeeksForGeeks Logo](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png?raw=true)</p>
+<p align="center"><img src="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png?raw=true></p>
 <p align="center"># Twitter-Sentimental-Analysis</p>
 
 #### ABOUT
