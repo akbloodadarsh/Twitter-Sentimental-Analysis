@@ -1,5 +1,5 @@
 ![GeeksForGeeks Logo](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png?raw=true)
-                                    # Twitter-Sentimental-Analysis
+  # Twitter-Sentimental-Analysis
 
 #### ABOUT
 
