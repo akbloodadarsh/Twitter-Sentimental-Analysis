@@ -21,6 +21,8 @@ A Gui software for setimental analysis using python.We have used multiple algori
   2. **Positive n% Negative n%**
 
 <ul>
+  
+ #### Prerequisite
 <li> <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#:~:text=sklearn.metrics.,set%20of%20labels%20in%20y_true.">accuracy score</a></li>
 <li>	<a href="https://muthu.co/understanding-the-classification-report-in-sklearn/#:~:text=A%20Classification%20report%20is%20used,predictions%20from%20a%20classification%20algorithm.&text=The%20report%20shows%20the%20main,positives%2C%20true%20and%20false%20negatives.">Classification report </a></li>
 <li>	<a href="https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62">Confusion Matrix</a></li>
