@@ -5,18 +5,50 @@
 
 #### ABOUT
 
-A Gui software for setimental analysis using python.We have used multiple algorithms and based on those algoritms we have shown independent outputs of every algorithm.**The user will input a twitter username and select number of tweets he wants to analyse.Then he/she will run the program and the output will be shown in seperate window for every tweet!**
+A GUI software for sentimental analysis using python. I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
 
 #### Instruction to use
 1. **Open [_`test.py`_](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py)**
 2. **Run**
-3. **When the UI will show up,enter the username of the profile wihtout using @**
+3. **When the UI will show up, enter the username of the profile without using @**
 4. **Use the slider to set the number of tweets you wanted to fetch**
 5. **The result will show up.**
 
+# File Details
+
+<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/PreProcess.py">Preprocess.py</a>: It contains preprocessing function which performs following steps:- 
+- It is getting the tweet  
+- Removes URL using a regular expression.
+- Removes emoticons using a regular expression.
+- Removes username using a regular expression.
+- Removes digit using a regular expression.
+- Convert more than 2 letter repetitions to 2 letters.
+- Removes symbols.
+- Removes extra white spaces.
+- Return preprocessed tweet.
+
+<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/twitter_credentials.py">twitter_credentials.py</a>: 
+In this file we store our access token,access token secret, consumer key and consumer secret.
+
+**Multinomial Naive Bayes, Random Trees Embedding, Random Forest Regressor, Random Forest Classifier, Multinomial Logistic Regression, Linear Support Vector Classifier, Linear Regression, Linear Classifier, Extra Tree Regressor, Extra Tree Classifier, Decision Tree Classifier, Binary Logistic Regression** get training data,testing data with features for which we have to predict our sentiment then we calculate accuracy score, confusion matrix and ROC(Receiver Operating Characteristic) and AUC(Area Under Curve) and return positive or negative emotions.
+
+<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py">test.py</a>: 
+- The TwitterAuthenticator class inherits the OAuthHandler class and passes in the credentials to allow access to Twitter’s API features.
+- The TwitterClient class contains all the methods to interact with Twitter API and parsing tweets. Use __init__ function to handle the authentication of the API client.
+- Create a object of class TwitterClient() and use the object to get twitter client API using get_twitter_client_api() function.
+- create a window using Tkinter and let the user input the hashtag.
+- Use API to search for the tweets of the inputted hashtag and store the tweets.
+- Extract the labels and sentences and store the outcomes in y and after preprocessing the tweets store them in x.
+- Then used count Vectorizer to lowercases text, performed tokenization (converts raw text to smaller units of text), used word-level tokenization (meaning each word is treated as a separate token), ignored single characters during tokenization.
+- Now one iterate the tweets and one by one preprocess and transform the tweets and do predictions.
+
+<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/twitter_credentials.py">twitter_credentials.py</a>: In this file we store our access token,access token secret, consumer key and consumer secret.
+
+<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/AllImport.py">AllImport.py</a>: This contains all the imported modules in one place so that we dont have to include it in every file, thus reducing the redundancy.
+
 #### Future Improvements
-* **Maybe we are gonna add a module which will analyze the image which is attached to a tweet.(If available by tweepy or other api)** 
-* **A hashtag analysis section which can analysis** **N** **number of tweets and based on the tweets will give sentiments of people in %.Ex:-**  
+* **Maybe we are gonna add a module that will analyze the image which is attached to a tweet. (If available by tweepy or other API)** 
+* **A hashtag analysis section which analysis** **N** ** several tweets and based on the tweets will give sentiments of people in %.Ex:-**  
   1. **Angry n% Sad n% Happy n%**
   2. **Positive n% Negative n%**
 
