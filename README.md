@@ -14,6 +14,8 @@ A GUI software for sentimental analysis using python. I have used multiple algor
 4. **Use the slider to set the number of tweets you wanted to fetch**
 5. **The result will show up.**
 
+**Multinomial Naive Bayes, Random Trees Embedding, Random Forest Regressor, Random Forest Classifier, Multinomial Logistic Regression, Linear Support Vector Classifier, Linear Regression, Linear Classifier, Extra Tree Regressor, Extra Tree Classifier, Decision Tree Classifier, Binary Logistic Regression** get training data, testing data with features for which we have to predict our sentiment then we calculate accuracy score, confusion matrix and ROC(Receiver Operating Characteristic) and AUC(Area Under Curve) and return positive or negative emotions.
+
 # File Details
 
 <a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/PreProcess.py">Preprocess.py</a>: It contains preprocessing function which performs following steps:- 
@@ -28,9 +30,7 @@ A GUI software for sentimental analysis using python. I have used multiple algor
 - Return preprocessed tweet.
 
 <a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/twitter_credentials.py">twitter_credentials.py</a>: 
-In this file we store our access token,access token secret, consumer key and consumer secret.
-
-**Multinomial Naive Bayes, Random Trees Embedding, Random Forest Regressor, Random Forest Classifier, Multinomial Logistic Regression, Linear Support Vector Classifier, Linear Regression, Linear Classifier, Extra Tree Regressor, Extra Tree Classifier, Decision Tree Classifier, Binary Logistic Regression** get training data,testing data with features for which we have to predict our sentiment then we calculate accuracy score, confusion matrix and ROC(Receiver Operating Characteristic) and AUC(Area Under Curve) and return positive or negative emotions.
+In this file, we store our access token, access token secret, consumer key, and consumer secret.
 
 <a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py">test.py</a>: 
 - The TwitterAuthenticator class inherits the OAuthHandler class and passes in the credentials to allow access to Twitter’s API features.
@@ -44,7 +44,7 @@ In this file we store our access token,access token secret, consumer key and con
 
 <a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/twitter_credentials.py">twitter_credentials.py</a>: In this file we store our access token,access token secret, consumer key and consumer secret.
 
-<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/AllImport.py">AllImport.py</a>: This contains all the imported modules in one place so that we dont have to include it in every file, thus reducing the redundancy.
+<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/AllImport.py">AllImport.py</a>: This contains all the imported modules in one place so that we don't have to include it in every file, thus reducing the redundancy.
 
 #### Future Improvements
 * **Maybe we are gonna add a module that will analyze the image which is attached to a tweet. (If available by tweepy or other API)** 
