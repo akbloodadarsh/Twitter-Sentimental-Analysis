@@ -35,4 +35,5 @@ A Gui software for setimental analysis using python.We have used multiple algori
 <li>	<a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a></li>
 <li>	<a href="https://stackoverflow.com/questions/33091376/python-what-is-exactly-sklearn-pipeline-pipeline">Pipleline</a></li>
 <li>	<a href="https://www.geeksforgeeks.org/naive-bayes-classifiers/">naive bayes classifier</a></li>
+<li>	<a href="https://towardsdatascience.com/fit-vs-transform-in-scikit-libraries-for-machine-learning-3c70e6300ded">fit and transform</a></li>
   </ul>
