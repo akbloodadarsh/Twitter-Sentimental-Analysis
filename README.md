@@ -14,7 +14,7 @@ A GUI software for sentimental analysis using python. I have used multiple algor
 4. **Use the slider to set the number of tweets you wanted to fetch**
 5. **The result will show up.**
 
-**Multinomial Naive Bayes, Random Trees Embedding, Random Forest Regressor, Random Forest Classifier, Multinomial Logistic Regression, Linear Support Vector Classifier, Linear Regression, Linear Classifier, Extra Tree Regressor, Extra Tree Classifier, Decision Tree Classifier, Binary Logistic Regression** get training data, testing data with features for which we have to predict our sentiment then we calculate accuracy score, confusion matrix and ROC(Receiver Operating Characteristic) and AUC(Area Under Curve) and return positive or negative emotions.
+**Multinomial Naive Bayes, Random Trees Embedding, Random Forest Regressor, Random Forest Classifier, Multinomial Logistic Regression, Linear Support Vector Classifier, Linear Regression, Extra Tree Regressor, Extra Tree Classifier, Decision Tree Classifier, Binary Logistic Regression** get training data, testing data with features for which we have to predict our sentiment then we calculate accuracy score, confusion matrix and ROC(Receiver Operating Characteristic) and AUC(Area Under Curve) and return positive or negative emotions.
 
 # File Details
 
