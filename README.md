@@ -1,6 +1,4 @@
-<p align="center">
-  ![alt text](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png)
-</p>
+![alt text](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png?raw=true)
 <h1 align="center">Twitter-Sentimental-Analysis</h1>
 
 #### ABOUT
