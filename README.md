@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png?raw=true">
+  ![alt text](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png)
 </p>
 <h1 align="center">Twitter-Sentimental-Analysis</h1>
 
@@ -45,12 +45,6 @@ In this file, we store our access token, access token secret, consumer key, and 
 <a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/twitter_credentials.py">twitter_credentials.py</a>: In this file we store our access token,access token secret, consumer key and consumer secret.
 
 <a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/AllImport.py">AllImport.py</a>: This contains all the imported modules in one place so that we don't have to include it in every file, thus reducing the redundancy.
-
-#### Future Improvements
-* **Maybe we are gonna add a module that will analyze the image which is attached to a tweet. (If available by tweepy or other API)** 
-* **A hashtag analysis section which analysis** **N** ** several tweets and based on the tweets will give sentiments of people in %.Ex:-**  
-  1. **Angry n% Sad n% Happy n%**
-  2. **Positive n% Negative n%**
 
 <ul>
   
