@@ -14,6 +14,14 @@ A GUI software for sentimental analysis using python. I have used multiple algor
 
 **Multinomial Naive Bayes, Random Trees Embedding, Random Forest Regressor, Random Forest Classifier, Multinomial Logistic Regression, Linear Support Vector Classifier, Linear Regression, Extra Tree Regressor, Extra Tree Classifier, Decision Tree Classifier, Binary Logistic Regression** get training data, testing data with features for which we have to predict our sentiment then we calculate accuracy score, confusion matrix and ROC(Receiver Operating Characteristic) and AUC(Area Under Curve) and return positive or negative emotions.
 
+# Get credentials from Twitter Developer Portal <a href="https://developer.twitter.com/en/portal/projects-and-apps">Link</a>
+
+# Library required
+- Python
+- Install Tweepy for fetching tweets 
+- Install pandas for data analsysis
+- Install sklearn for machine learning algos
+
 # File Details
 
 <a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/PreProcess.py">Preprocess.py</a>: It contains preprocessing function which performs following steps:- 
